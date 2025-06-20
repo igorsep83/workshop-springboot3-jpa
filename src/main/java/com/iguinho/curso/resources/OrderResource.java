@@ -13,7 +13,7 @@ import com.iguinho.curso.entities.Order;
 import com.iguinho.curso.services.OrderService;
 
 @RestController
-@RequestMapping(value = "/Orders")
+@RequestMapping(value = "/orders")
 public class OrderResource {
 	
 	@Autowired
